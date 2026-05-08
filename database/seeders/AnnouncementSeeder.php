@@ -12,16 +12,6 @@ class AnnouncementSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\Announcement::create([
-            'title' => 'Final Exam Schedule',
-            'content' => 'The final exams will start on May 15, 2026. Please check your dashboard for details.',
-            'category' => 'Academic',
-        ]);
-
-        \App\Models\Announcement::create([
-            'title' => 'Campus Maintenance',
-            'content' => 'The library will be closed this Saturday for scheduled maintenance.',
-            'category' => 'Urgent',
-        ]);
+        // Fresh start
     }
 }

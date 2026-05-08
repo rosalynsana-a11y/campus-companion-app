@@ -12,25 +12,6 @@ class LocationSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\Location::create([
-            'name' => 'Main Library',
-            'description' => 'The central hub for research and study.',
-            'latitude' => 10.3157,
-            'longitude' => 123.8854,
-        ]);
-
-        \App\Models\Location::create([
-            'name' => 'IT Building',
-            'description' => 'Home of the College of Information Technology.',
-            'latitude' => 10.3165,
-            'longitude' => 123.8860,
-        ]);
-
-        \App\Models\Location::create([
-            'name' => 'Student Pavilion',
-            'description' => 'Food court and student activity area.',
-            'latitude' => 10.3170,
-            'longitude' => 123.8845,
-        ]);
+        // Fresh start
     }
 }
