@@ -19,6 +19,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/schedules', [\App\Http\Controllers\ScheduleController::class, 'index'])->name('schedules.index');
     Route::get('/announcements', [\App\Http\Controllers\AnnouncementController::class, 'index'])->name('announcements.index');
     Route::get('/events', [\App\Http\Controllers\EventController::class, 'index'])->name('events.index');
+    Route::get('/map', [\App\Http\Controllers\MapController::class, 'index'])->name('map.index');
 });
 
 require __DIR__.'/auth.php';
